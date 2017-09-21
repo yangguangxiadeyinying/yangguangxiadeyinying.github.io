@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <style>
+    .point{
+    	width: 1px;
+  	    height: 1px;
+  	    position: absolute;
+  	    background: blue;
+    	left: 0;
+  	    right: 0;
+  	    bottom: 0;
+  	    top: 0;
+        margin: auto;
+    }
+
+   .circle{
+		width: 1px;
+		height: 1px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		transition: all 0.5s;
+  }
+    </style>
+    <body>
+       <div class="point"></div>
+    </body>
+</html>
+<script>
+    let point=document.querySelector('div.point');
+    for (let i = 0; i < 200; i++) {
+    	let cw=Math.round(Math.random()*(window.innerWidth-40))-window.innerWidth/2;
+    	let ch=Math.round(Math.random()*(window.innerHeight-40))-window.innerHeight/2;
+        let width=Math.round(Math.random()*20+20);
+		let divs=document.createElement('div');
+		let color=bgcolor();
+        divs.classList.add('circle');
+        divs.style.cssText=`
+        width:${width}px;
+        height:${width}px;
+        background:${color};
+        border-radius:50%;
+        position:absolute;`
+        point.appendChild(divs);
+        setTimeout(()=>{
+        	divs.style.left=`${cw}px`;
+        	divs.style.top=`${ch}px`;
+        }, 1)
+    }
+    function bgcolor(){
+    	let r=Math.round(Math.random()*256);
+    	let g=Math.round(Math.random()*256);
+    	let b=Math.round(Math.random()*256);
+    	return `rgb(${r},${g},${b})`
+    }
+
+</script>

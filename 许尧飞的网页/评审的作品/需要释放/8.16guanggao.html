@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>悬浮框</title>
+</head>
+<style>
+    *{
+    	margin: 0;
+    	padding: 0;
+    }
+	.box{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background: red;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+</style>
+<body>
+	<div class="box"></div>
+</body>
+</html>
+<script>
+	let box=document.querySelector('.box');
+	let speed=10;
+	let speed1=10
+	let  maxh=window.innerHeight-box.offsetHeight;
+	let  maxw=window.innerWidth-box.offsetWidth;
+    setInterval(function(){
+     let tops=box.offsetTop;
+     let lefts=box.offsetLeft;
+     window.onresize=function(){
+         maxh=window.innerHeight-box.offsetHeight;
+         maxw=window.innerWidth-box.offsetWidth;
+     }
+     console.log(tops)
+    	if (tops>=maxh) {
+    		speed=-speed;
+    	}
+    	if (lefts>=maxw) {
+    		speed1=-speed1;
+    	}
+    	if (lefts<0) {
+            speed1=-speed1;
+    	}
+    	if (tops<0) {
+            speed=-speed;
+           
+    	}
+       box.style.top=`${tops+speed}px`;
+       box.style.left=`${lefts+speed1}px`;
+    }, 10)
+</script>

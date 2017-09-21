@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>rain</title>
+</head>
+<style>
+	body{
+		width: 100%;
+		height: 100%;
+		background: black;
+		position: absolute; 
+		overflow: hidden;
+	}
+	.rain{
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background: #ccc;
+		filter: blur(1px);
+		position: absolute;
+		top: 50px;
+		left: 100px;
+        -webkit-transition: all 0.5s;
+
+	}
+</style>
+<body>
+	<div class="rain"></div>
+</body>
+</html>
+<script>
+	for (let i = 0; i < 200; i++) {
+		let divs=document.createElement('div');
+		document.body.appendChild(divs);
+		divs.classList.add('rain');
+        let lefts=Math.random()*(window.innerWidth/*-200*/)/*+100*/;
+        let tops=Math.random()*50+50;
+        divs.style.left=`${lefts}px`;
+        divs.style.top=`${tops}px`;
+    }
+    /*点击下雨*/
+    window.onclick=function(){
+    	let rains=document.querySelectorAll('.rain');
+    	rains.forEach(element=>{
+    		element.style.top=`${window.innerHeight+50}px`;
+    		element.style.transitionDelay=`${Math.random()}s`;
+    		element.addEventListener('webkitTransitionEnd',function(){
+    			element.style.transition="none";
+    			element.style.top='-50px';
+                /*下来的再上去*/
+    			setTimeout(function(){
+                    element.style.transition=`all ease 1s ${Math.random()}s`;
+                    element.style.top=`${window.innerHeight+50}px`;
+    			}, 1)
+    		},1)
+    	})
+
+    }
+</script>

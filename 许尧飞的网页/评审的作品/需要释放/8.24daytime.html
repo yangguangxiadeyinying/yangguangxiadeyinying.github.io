@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>存儲-日期</title>
+</head>
+<body>
+	
+</body>
+</html>
+<script>
+	/*let time = new Date('9:30:0 8/25/2017');
+	console.log(time);
+	let time1=new Date(2018,8,25,9,20,30);
+	console.log(time1)
+	console.log(time.getFullYear())
+	console.log(time.getMouth()+1);
+	console.log(time.getDate());
+	console.log(time.getDay());*/
+	/*setInterval(fn, 1000);
+	fn();
+	function fn(){
+		let now=new Date();
+		let tor=new Date('8/25/2017/18:30:0');
+		let cha=Math.floor((tor.getTime()-now.getTime())/1000);
+		let day=Math.floor(cha/(60*60*24));
+		let cha1=cha%(60*60*24);
+		console.log(cha1)
+		let hour=Math.floor(cha1/(60*60));
+		console.log(hour)
+		let cha2=cha1%(60*60);
+		let minuter=Math.floor(cha2/60);
+		let second=cha2%24;
+		document.body.innerText=`${day}天${hour}时${minuter}分${second}秒`;
+	}*/
+	/*十分钟倒计时*/
+	function djs(num){
+       let after=new Date();
+       after.setTime(after.getTime()+1000*60*num);
+       let t=setInterval(fn , 1)
+       function fn(){
+	       	let now1=new Date();
+	       	let cha=after.getTime()-now1.getTime();
+	       	let minuter=Math.floor(cha/(1000*60));
+	       	    cha=cha%(1000*60);
+	       	let second=Math.floor(cha/1000);
+	       	let miliS=cha%1000;
+	       	document.body.innerText=`${minuter}分${second}秒${miliS}毫秒`; 
+		       if (cha == 0&&minuter==0&&second==0&&miliS==0) {
+		       	clearInterval(t);
+		       }
+        }
+   }
+   djs(0.1);
+</script>

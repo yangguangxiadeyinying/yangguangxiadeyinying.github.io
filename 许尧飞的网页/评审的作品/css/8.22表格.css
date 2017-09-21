@@ -1,0 +1,51 @@
+/*
+* @Author: HASEE
+* @Date:   2017-08-22 15:06:29
+* @Last Modified by:   HASEE
+* @Last Modified time: 2017-08-22 19:19:02
+*/
+/* table{
+	border-collapse:collapse;
+} */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+main{
+	width: 800px;
+	height: auto;
+	margin: 20px auto;
+}
+table{
+	width: 100%;
+	padding: 10px;
+	border-collapse:collapse;
+	text-align: center;
+}
+th{
+	padding: 6px 12px;
+	border: 1px solid #f5f5f5;
+}
+td{
+	padding: 6px 12px;
+	border: 1px solid #f5f5f5;
+}
+button{
+	border: none;
+	outline: none;
+	padding: 6px 12px;
+	background: #777ddd;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.add{
+	float: right;
+	margin-right: 47px;
+	margin-top: 12px;
+	background: #aecdaa;
+}
+tr:nth-child(2n){
+	background: #c9fbff;
+}
+

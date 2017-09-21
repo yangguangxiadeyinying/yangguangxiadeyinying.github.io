@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <script>
+    /*升序*/
+    function maxpaixu(arr){
+       for(var i=0;i<arr.length;i++){
+       	for(var j=i+1;j<arr.length;j++){
+               if(arr[i]>arr[j]){
+                 temp=arr[i];
+                 arr[i]=arr[j];
+                 arr[j]=temp;
+               }
+       	}
+       }
+       // document.write(arr);
+       document.write("<br>");
+    }
+ /*降序*/
+    var arr=[12,52,62,31,85,14]
+    function minpaixu(arr){
+       for(var i=0;i<arr.length;i++){
+       	for(var j=i+1;j<arr.length;j++){
+               if(arr[i]<arr[j]){
+                 temp=arr[i];
+                 arr[i]=arr[j];
+                 arr[j]=temp;
+               }
+       	}
+       }
+       // document.write(arr);
+       document.write("<br>");
+    }
+    function  paixu(arr,flag){
+      flag=flag || '<';// 没有给flag值 默认情况
+      //flag= flag===undefined?'<':flag;
+      if(flag===">"){
+        minpaixu(arr);
+      }
+      else if(flag==="<"){
+        maxpaixu(arr);
+      }
+      document.write(arr);
+      document.write("<br>");
+    }
+    paixu(arr,">");
+    paixu(arr,"<");
+    </script> 
+       <!-- 最大值 -->
+    <!--  <script>
+      var a=[23,35,24,52,21,32,30,65,100];
+      zuida(a);
+      function zuida(a){
+      max=a[0];
+      for (var i = 0; i < a.length; i++) {
+         if(a[i]>max){
+           max=a[i];
+        }
+           }
+           document.write(max);
+       }
+          </script>  
+          最小
+         <script>
+                  var a=[23,35,24,52,21,32,30,65,100];
+                  zuida(a);
+                  function zuida(a){
+                  max=a[0];
+                  for (var i = 0; i < a.length; i++) {
+                     if(a[i]<max){
+           max=a[i];
+                    }
+           }
+           document.write(max);
+                   }
+                      </script>   
+     表格
+    <script>
+    function biaoge(m,n){
+         document.write("<table width=500 height =500 border=1 cellspacing=0 align=center>");
+    
+     for(var i=1;i<m;i++){
+           document.write("<tr align=center>");
+        
+       for(var j=1;j<n;j++){
+           document.write("<td>"+j+"-"+i+"</td>");
+    
+       }
+       document.write("</tr>");
+    
+     }
+     document.write("</table>");
+      }
+      biaoge(5,5);
+    </script> -->
+    </body>
+</html>

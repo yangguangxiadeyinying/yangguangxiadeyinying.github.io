@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <!-- 左三角 -->
+    <script>
+    function zhijiao(n){
+    	for(var i=1;i<n;i++){
+    		for(var j=1;j<=i;j++){
+    			document.write("*");
+    		}
+    		document.write('<br>');
+    	}
+    }
+    zhijiao(20);
+    </script>
+    <!-- 右三角 -->
+    <script>
+    	for(var v=0;v<10;v++){
+    		for(var s=10;s>v;s--){
+                document.write("&nbsp");
+    		}
+    		for(var u=0; u<v;u++){
+    			document.write("*")
+    		}
+    		document.write("<br>");
+    	}
+
+    	
+    </script>
+    <!-- 九九乘法表 -->
+    <style>
+    table{
+    	border: none;
+    	}
+    td{
+    	border:  1px  solid  #f5f5f5;
+    	}
+    </style>
+    <script>
+       document.write("<table width=500 height =500 align=center>");
+      for(var i=1;i<10;i++){
+           if (i%2==1) { 
+            document.write("<tr bgcolor=purple align=center>");
+        }else{
+            document.write("<tr bgcolor=red align=center>");
+        }
+           
+        for(var j=1;j<=i;j++){
+            document.write("<td border=1>"+j+"*"+i+"="+i*j+"</td>");
+
+        }
+        document.write("</tr>");
+      }
+      document.write("</table>");
+    </script>
+    </body>
+</html>

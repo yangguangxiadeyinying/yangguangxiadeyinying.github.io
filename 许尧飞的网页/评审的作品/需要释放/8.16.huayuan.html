@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	.pointer{
+		width: 1px;
+		height: 1px;
+		border-radius: 50%;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		margin: auto;
+		background: blue;
+	}
+	.circle{
+		width: 8px;
+		height: 8px;
+		background: red;
+		border-radius: 50%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+</style>
+<body>
+	<div class="pointer"></div>
+</body>
+</html>
+<script src="js/function.js"></script>
+<script>
+   let pointer=document.querySelector('div.pointer:first-child');
+   let r=20,num=400,every=40,deg=360/every,t=200;
+   const bili=Math.PI/180;
+   for (let i = 0; i < num; i++) {
+   	 if (i%40==0) {
+   		r+=30;
+   	 }
+   	 let divs=document.createElement('div'); 
+   	 divs.classList.add('circle');
+   	 let degs=deg*i*bili;
+   	 let lefts=r*Math.cos(degs);
+   	 let tops=r*Math.sin(degs);
+     // pointer.appendChild('divs');
+     divs.prependTo(pointer);
+     t+=20;
+     divs.style.transitionDelay=`${t}ms`;
+     setTimeout(()=>{
+         divs.style.left=`${lefts}px`;
+         divs.style.top=`${tops}px`;
+     }, 100)
+ }
+</script>
