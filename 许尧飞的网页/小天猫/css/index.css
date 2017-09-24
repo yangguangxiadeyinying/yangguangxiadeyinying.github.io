@@ -1,0 +1,1154 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.toubu{
+	width: 100%;
+	height: 0.88rem;
+	background: #f32d2d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.shouqi{
+	width: 0.41rem;
+	height: 0.34rem;
+	background: cyan;
+	float: left;
+	margin-left: 0.4rem;
+	margin-top: 0.22rem;
+}
+.shouqi img{
+	width: 0.41rem;
+	height: 0.34rem;
+	display: block;
+}
+.sousuo{
+	height: 0.67rem;
+	width: 4rem;
+	background: purple;
+	float: left;
+	margin-left: 0.41rem;
+	margin-top: 0.1rem;
+	border-radius: 20%;
+}
+.sousuo input{
+	width: 3.32rem;
+	height: 100%;
+	background: pink;
+	float: left;
+	border: none;
+	font-size: 0.26rem;
+	color: #a28da3;
+}
+.anniu{
+	width: 0.68rem;
+	height: 0.67rem;
+    background: purple;
+    float: left;
+}
+.anniu img{
+	width: 0.68rem;
+	height: 0.67rem;
+	display: block;
+}
+.denglu{
+	height: 0.46rem;
+	width: 0.41rem;
+	background: #f32d2d;
+	float: left;
+	margin-left: 0.37rem;
+	margin-top: 0.33rem;
+	text-align: center;
+	line-height: 0.46rem;
+	color: white;
+	font-size: 0.2rem;
+}
+.head{
+	width: 100%;
+	height: 0.88rem;
+}
+.jingbu{
+	width: 100%;
+	height: 2.22rem;
+	position: relative;
+}
+.jingbu img{
+	width: 100%;
+	height: 2.22rem;
+}
+.luoguo{
+	width: 1.4rem;
+	height: 0.14rem;
+	bottom: 0.16rem;
+	left: 2.5rem;
+	position: absolute;
+}
+.luoguo ul li{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #7f7e80;
+	border-radius: 50%;
+	margin-right: 0.04rem;
+	float: left;
+}
+.luoguo ul li:last-of-type{
+	margin-right: 0rem;
+	background: black;
+}
+
+.navlist{
+    width: 100%;
+    height: 3.93rem;
+    background: #ffffff;
+    overflow: hidden;
+}
+.shang{
+	width: 100%;
+	height: 1.17rem;
+	background: #ffffff;
+	margin-top:0.08rem; 
+}
+.shang li{
+	width: 20%;
+	height: 1.17rem;
+	background: #ffffff;
+	float: left;
+}
+.tubiao{
+	width: 0.72rem;
+	height: 0.72rem;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 0.08rem;
+}
+.wenzi{
+	width: 0.93rem;
+	height: 0.22rem;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 0.14rem;
+	display: block;
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	color: black;
+	text-align: center;
+}
+.tubiao img{
+	width: 0.72rem;
+	height: 0.72rem;
+	display: block;
+}
+.xia{
+	width: 100%;
+	height: 1.17rem;
+	background: #ffffff;
+	margin-top:0.37rem; 
+
+}
+.xia li{
+	width: 20%;
+	height: 1.17rem;
+	background: #ffffff;
+	float: left;
+} 
+.tianmao{
+	width: 100%;
+	height: 0.8rem;
+	margin-top: 0.31rem;
+	background: white;
+}
+.tou{
+	width: 1.32rem;
+	height: 0.8rem;
+	float: left;
+	background: white;
+	border-right: 2px solid #e7e7e7;
+}
+.tou img{
+	width: 1.32rem;
+	height: 0.8rem;
+	display: block;
+}
+.laba{
+	width: 0.6rem;
+	height: 0.6rem;
+	float: left;
+}
+.xiaolaba{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-top:0.15rem;
+	margin-left: 0.1rem;
+
+}
+.xiaolaba img{
+	width: 0.5rem;
+	height: 0.5rem;
+	display: block;
+}
+.chunji{
+	width: 4.26rem;
+	height: 0.8rem;
+	background: white;
+	float: left;
+	margin-left: 0.18rem;
+}
+.shouhang{
+	width: 100%;
+	height:0.23rem;
+	background: white;
+	margin-top: 0.04rem;
+	font-size: 0.24rem;
+	line-height: 0.23rem;
+	text-align: center;
+	color: black;
+}
+.mohang{
+	width: 1.91rem;
+	height:0.22rem;
+	background: white;
+	margin-top: 0.15rem;
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	text-align: center;
+	color: red;
+}
+.nvren{
+	width: 100%;
+	height: 2.09rem;
+	background: #f0f0f0;
+	margin-top: 0.09rem;
+}
+.nvren img{
+	width: 100%;
+	height: 2.09rem;
+	display: block;
+}
+.huangfa{
+	width: 3.46rem;
+	height: 2.09rem;
+	background: blue;
+	margin-left: 0.05rem;
+}
+.biqiang{
+	margin-top: 0.14rem;
+	width: 100%;
+	height: 5.57rem;
+	background: red;
+
+}
+.biti{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.zuodao{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 1.88rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 2px solid #f6b7b7;
+}
+.hexin{
+	width: 0.88rem;
+	height: 0.3rem;
+	background: #f0f0f0;
+	margin-left: 0.2rem;
+	margin-top: 0.16rem;
+	float: left;
+}
+.hongshouji{
+	width: 0.88rem;
+	height: 0.30rem;
+	background: #f0f0f0;
+	float: left;
+}
+.hongshouji img{
+	width: 0.24rem;
+	height: 0.30rem;
+	display: block;
+}
+.hongzi{
+	width: 0.54rem;
+	height: 0.25rem;
+	background: #f0f0f0;
+	float: right;
+	color: #fc2e2e;
+	font-size: 0.25rem;
+	line-height: 0.25rem;
+	text-align: center;
+	margin-top: -0.3rem;
+	margin-left: 0.2rem;
+}
+.youdao{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 0.2rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 2px solid #f6b7b7;
+}
+.qiangtu{
+	width: 100%;
+	height: 4.95rem;
+	background: #ffffff;
+}
+.shanghang{
+	width: 100%;
+	height: 2.55rem;
+	background: #ffffff;
+}
+.zuoshang{
+	width: 75%;
+	height: 2.55rem;
+	background: #ffffff;
+	float: left;
+}
+/* 11111111 */
+.one{
+	width: 33.333333%;
+	height: 2.55rem;
+	background: #ffffff;
+	float: left;
+}
+.shouzi{
+	width: 1.02rem;
+	height: 0.24rem;
+	background: #ffffff;
+	margin-left: 0.29rem;
+	margin-top: 0.14rem;
+	font-size: 0.24rem;
+	color: black;
+	line-height: 0.24rem;
+    text-align: center;
+
+}
+.erzi{
+	width: 1.6rem;
+	height: 1.39rem;
+	background:#ffffff;
+    margin-top: 0.12rem;
+}
+.erzi img{
+	width: 1.6rem;
+	height: 1.39rem;
+	display: block;
+}
+.sanzi{
+	width: 1.17rem;
+	height: 0.17rem;
+	background: #ffffff;
+    margin-top: 0.27rem;
+    margin-left: 0.22rem;
+}
+.sanyi{
+	width: 0.46rem;
+	height: 100%;
+	background: #ffffff;
+    float: left;
+    margin-right: 0.04rem;
+    color:red;
+    font-size:0.11rem;
+    line-height: 0.17rem;
+    text-align: center;
+
+}
+.saner{
+	width: 0.67rem;
+	height: 100%;
+	background: #ffffff;
+	float: left;
+    color:#9b9b9b;
+    font-size:0.11rem;
+    line-height: 0.17rem;
+    text-align: center;
+}
+/* 1111111 */
+.youshang{
+	width: 25%;
+	height: 2.55rem;
+	background: #ffffff;
+	border-left:0.01rem solid #f0f0f0; 
+    float: left;
+    box-sizing: border-box;
+}
+/* 11111111111 */
+.erlei{
+	width: 1.59rem;
+	height: 1.39rem;
+	background: #ffffff;
+    margin-top: 0.12rem;
+}
+.erlei img{
+	width: 1.59rem;
+	height: 1.39rem;
+	display: block;
+}
+.xiahang{
+	width: 100%;
+	height: 2.55rem;
+	background: #ffffff;
+	border-top: 0.01rem solid #f0f0f0;
+}
+.zuoxia{
+	width: 75%;
+	height: 2.40rem;
+	background: #ffffff;
+	float: left;
+}
+.youxia{
+	width: 25%;
+	height: 2.40rem;
+	background: #ffffff;
+	border-left:0.01rem solid #f0f0f0; 
+    float: left;
+    box-sizing: border-box;
+}
+.two{
+	width: 33.333333%;
+	height: 2.40rem;
+	background: #ffffff;
+	float: left;
+}
+.si{
+	width: 1.02rem;
+	height: 0.24rem;
+	background: #ffffff;
+	margin-left: 0.29rem;
+	margin-top: 0.14rem;
+	font-size: 0.24rem;
+	color: black;
+	line-height: 0.24rem;
+    text-align: center;
+}
+.wu{
+	width: 1.6rem;
+	height: 1.39rem;
+	background:#ffffff;
+    margin-top: 0.12rem;
+}
+.wu img{
+	width: 1.6rem;
+	height: 1.39rem;
+	display: block;
+}
+.liu{
+	width: 1.17rem;
+	height: 0.17rem;
+	background: #ffffff;
+    margin-top: 0.18rem;
+    margin-left: 0.22rem;
+}
+.liu1{
+	width: 0.46rem;
+	height: 100%;
+	background: #ffffff;
+    float: left;
+    margin-right: 0.04rem;
+    color:red;
+    font-size:0.11rem;
+    line-height: 0.17rem;
+    text-align: center;
+
+}
+.liu2{
+	width: 0.67rem;
+	height: 100%;
+	background: #ffffff;
+	float: left;
+    color:#9b9b9b;
+    font-size:0.11rem;
+    line-height: 0.17rem;
+    text-align: center;
+}
+.youxia{
+	width: 25%;
+	height: 2.4rem;
+	background: #ffffff;
+	border-left:0.01rem solid #f0f0f0; 
+    float: left;
+    box-sizing: border-box;
+}
+.chaoliu{
+	width: 100%;
+	height: 3.22rem;
+	background: purple;
+}
+.biaoti{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.zuoheng{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 1.6rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 2px solid #becfec;
+}
+.zhongjian{
+	width: 1.44rem;
+	height: 0.3rem;
+	background: #f0f0f0;
+	margin-left: 0.2rem;
+	margin-top: 0.16rem;
+	float: left;
+}
+.lvshouji{
+	width: 0.24rem;
+	height: 0.22rem;
+	background: #f0f0f0;
+	float: left;
+}
+.lvshouji img{
+	width: 0.24rem;
+	height: 0.22rem;
+	display: block;
+}
+.lvzi{
+	width: 1.10rem;
+	height: 0.25rem;
+	background: #f0f0f0;
+	float: right;
+	color: #4a84e2;
+	font-size: 0.25rem;
+	line-height: 0.25rem;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.youheng{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 0.2rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 2px solid #becfec;
+}
+.chaotu{
+	width: 100%;
+	height: 2.6rem;
+	background: black;
+}
+.chaotu li{
+	width: 33.333333%;
+	height: 2.6rem;
+	background: red;
+	float: left;
+}
+.chaotu li img{
+	width: 100%;
+	height: 2.6rem;
+}
+.pinpai{
+	width: 100%;
+	height: 2.5rem;
+	background: yellow;
+}
+.pinbiao{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.zuoxian{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 1.6rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 2px solid #fc8000;
+}
+.libian{
+	width: 1.44rem;
+	height: 0.3rem;
+	background: #f0f0f0;
+	margin-left: 0.2rem;
+	margin-top: 0.16rem;
+	float: left;
+}
+.huangshouji{
+	width: 0.31rem;
+	height: 0.31rem;
+	background: #f0f0f0;
+	float: left;
+}
+.huangshouji img{
+	width: 0.31rem;
+	height: 0.31rem;
+	display: block;
+}
+.huangzi{
+	width: 1.10rem;
+	height: 0.25rem;
+	background: #f0f0f0;
+	float: right;
+	color: #fc8000;
+	font-size: 0.25rem;
+	line-height: 0.25rem;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.youxian{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 0.2rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 2px solid #fc8000;
+}
+.pintu{
+	width: 100%;
+	height: 1.88rem;
+	background: black;
+}
+.pintu li{
+	width: 50%;
+	height: 1.88rem;
+	background: red;
+	border-right: 1px solid #f0f0f0;
+	float: left;
+	box-sizing: border-box;
+}
+.pintu li:last-of-type{
+    border-right: 0px solid #f0f0f0;
+}
+.pintu li img{
+	width: 100%;
+	height: 1.88rem;
+}
+.bianjie{
+	width: 100%;
+	height: 2.95rem;
+	background: purple;
+	margin-top: 0.3rem;
+}
+.bianbiao{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.zuoxian1{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 1.6rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 2px solid #bbd79f;
+}
+.libian1{
+	width: 1.44rem;
+	height: 0.3rem;
+	background: #f0f0f0;
+	margin-left: 0.2rem;
+	margin-top: 0.16rem;
+	float: left;
+}
+.huangshouji1{
+	width: 0.31rem;
+	height: 0.31rem;
+	background: #f0f0f0;
+	float: left;
+}
+.huangshouji1 img{
+	width: 0.31rem;
+	height: 0.31rem;
+	display: block;
+}
+.huangzi1{
+	width: 1.10rem;
+	height: 0.25rem;
+	background: #f0f0f0;
+	float: right;
+	color: #43af7f;
+	font-size: 0.25rem;
+	line-height: 0.25rem;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.youxian1{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 0.2rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 2px solid #bbd79f;
+}
+.biantu{
+	width: 100%;
+	height: 2.5rem;
+	background: red;
+}
+.zuoce{
+	width: 2.84rem;
+	height: 100%;
+	background: white;
+	float: left;
+	border-right: 0.02rem solid #f0f0f0;
+}
+.dazi{
+	width: 0.89rem;
+	height: 0.21rem;
+	margin-top: 0.16rem;
+	margin-left: 0.98rem;
+	background: white;
+	line-height: 0.21rem;
+	text-align: center;
+	color: black;
+	font-size: 0.22rem;
+}
+.xiaozi{
+	width: 1.22rem;
+	height: 0.19rem;
+	margin-top: 0.06rem;
+	margin-left: 0.81rem;
+	background: white;
+	line-height: 0.19rem;
+	text-align: center;
+	color: #97c072;
+	font-size: 0.2rem;
+}
+.datu{
+	width: 2.09rem;
+	height: 1.84rem;
+	margin-top: 0.02rem;
+	margin-left: 0.58rem;
+	background: white;
+}
+.datu img{
+	width: 2.09rem;
+	height: 1.84rem;
+	display: block;
+}
+.youce{
+	width: 3.54rem;
+	height: 100%;
+	background: white;
+	float: left;
+}
+.shangfang{
+	width:3.54rem;
+	height: 1.24rem;
+	background: white;
+	border-bottom: 0.02rem solid #f0f0f0;
+    overflow: hidden;
+} 
+.xiafang{
+	width:3.54rem;
+	height:1.24rem;
+	background: white;
+	overflow: hidden;
+} 
+.lao{
+	width: 2.00rem;
+	height: 0.69rem;
+	background: white;
+	float: left;
+}
+.shangzhi{
+	width: 0.67rem;
+	height: 0.21rem;
+	margin-left: 0.57rem;
+	line-height: 0.21rem;
+	text-align: center;
+	color: black;
+	font-size: 0.22rem;
+	background: white;
+	margin-top: 0.16rem;
+
+}
+
+.xiazhi{
+	width: 1.03rem;
+	height: 0.2rem;
+	margin-top: 0.04rem;
+	margin-left: 0.3rem;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #97c072;
+	font-size: 0.2rem;
+	background: white;
+}
+.shitu{
+	width: 1.5rem;
+	height: 1.11rem;
+	float: right;
+	margin-top: 0.14rem;
+	background: white;
+}
+.shitu img{
+	width: 1.5rem;
+	height: 1.11rem;
+	display: block;
+}
+.remen{
+	width: 100%;
+	height: 7.7rem;
+	background: purple;
+	margin-top: 0.3rem;
+}
+.hangbiao{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.zuoxian2{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 1.6rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 0.02rem solid #c9d0f7;
+}
+.libian2{
+	width: 1.44rem;
+	height: 0.3rem;
+	background: #f0f0f0;
+	margin-left: 0.2rem;
+	margin-top: 0.16rem;
+	float: left;
+}
+.huangshouji2{
+	width: 0.31rem;
+	height: 0.31rem;
+	background: #f0f0f0;
+	float: left;
+}
+.huangshouji2 img{
+	width: 0.31rem;
+	height: 0.31rem;
+	display: block;
+}
+.huangzi2{
+	width: 1.10rem;
+	height: 0.25rem;
+	background: #f0f0f0;
+	float: right;
+	color: #cb8de2;
+	font-size: 0.25rem;
+	line-height: 0.25rem;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.youxian2{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 0.2rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 0.02rem solid #c9d0f7;
+}
+.zong{
+	height: 7.23rem;
+	width: 100%;
+	background: white;
+}
+.yiji{
+	width: 100%;
+	height: 2.01rem;
+	border-bottom: 0.01rem solid #f0f0f0;
+	background:white;
+}
+.erji{
+	width: 100%;
+	height: 2.60rem;
+	border-bottom: 0.01rem solid #f0f0f0;
+	background: white;
+}
+.sanji{
+	width: 100%;
+	height: 2.60rem;
+    background: white;
+}
+.siji{
+	width: 50%;
+	height: 100%;
+	border-right: 0.02rem solid #f0f0f0;
+    box-sizing: border-box;
+    background: white;
+    float: left;
+    overflow: hidden;
+}
+.wuji{
+	width: 50%;
+	height: 100%;
+    background: white;
+     float: left;
+     overflow: hidden;
+}
+.liakuai{
+	width: 1.42rem;
+	height: 0.60rem;
+	margin-top: 0.1rem;
+	margin-left: 0.11rem;
+	background: white;
+	float: left;
+}
+.tupian{
+	width: 1.47rem;
+	height: 1.62rem;
+	margin-top: 0.1rem;
+	margin-left: 0.14rem;
+	background: white;
+	float: left;
+}
+.tupian img{
+	width: 1.47rem;
+	height: 1.62rem;
+    display: block;
+}
+.sishang{
+	width: 1.11rem;
+	height: 0.25rem;
+	background: white;
+    line-height: 0.25rem;
+	text-align: center;
+	color: black;
+	font-size: 0.27rem;
+}
+.sixia{
+	width: 1.40rem;
+	height: 0.2rem;
+	background: white;
+    line-height: 0.25rem;
+	text-align: center;
+	color: #9ba7c3;
+	font-size: 0.2rem;
+    margin-top: 0.13rem;
+}
+.eryi{
+	width: 25%;
+	height: 100%;
+	border-right: 0.02rem solid #f0f0f0;
+    box-sizing: border-box;
+    background: white;
+    float: left;
+   padding-top: 0.1rem;
+   
+}
+.erer{
+	width: 25%;
+	height: 100%;
+    background: red;
+    float: left;
+    overflow: hidden;
+    background: white;
+}
+.ershang{
+	width: 1.09rem;
+	height: 0.24rem;
+	background: white;
+    line-height: 0.25rem;
+	text-align: center;
+	color: black;
+	font-size: 0.27rem;
+	margin-top: 0.1rem;
+	margin: 0 auto;
+}
+.erzhong{
+	width: 1.43rem;
+	height: 0.20rem;
+	background: white;
+    line-height: 0.2rem;
+	text-align: center;
+	color: black;
+	font-size: 0.2rem;
+	margin: 0 auto;
+	margin-top: 0.15rem;
+}
+.erxia{
+	width: 1.42rem;
+	height: 1.50rem;
+	background: white;
+    margin: 0 auto;
+	margin-top: 0.15rem;
+}
+.erxia img{
+	width: 1.42rem;
+	height: 1.50rem;
+	display: block;
+}
+.xihuan{
+	width: 100%;
+	height: 5.12rem;
+	background: #f0f0f0;
+}
+.xibiao{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.zuoxian3{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 1.6rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 2px solid #bca399;
+}
+.libian3{
+	width: 1.44rem;
+	height: 0.3rem;
+	background: #f0f0f0;
+	color: #bca399;
+	margin-top: 0.16rem;
+	float: left;
+	font-size: 0.25rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.youxian3{
+	width: 0.68rem;
+	height: 0.32rem;
+	background: #f0f0f0;
+	margin-left: 0.1rem;
+	margin-top: 0rem;
+	float: left;
+	border-bottom: 2px solid #bca399;
+}
+.po{
+	width: 100%;
+	height: 4.56rem;
+	margin-top: 0.3rem;
+	background: blue;
+}
+.poyi{
+	width: 50%;
+	height: 100%;
+	border-right: 0.06rem  solid  #f5f5f5;
+	box-sizing: border-box;
+	background: white;
+	float: left;
+}
+.poer{
+	width: 50%;
+	height: 100%;
+	border-right: 0.06rem  solid  #f5f5f5;
+	box-sizing: border-box;
+	background: white;
+	float: left;
+}
+.poer{
+	width: 50%;
+	height: 100%;
+	background: white;
+	float: left;
+}
+.posan{
+	width: 3.14rem;
+	height: 3.18rem;
+	background: white;
+}
+.posan img{
+	width: 3.14rem;
+	height: 3.18rem;
+	display: block;
+}
+.posi{
+	width: 2.8rem;
+	height: 0.55rem;
+	background: white;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	text-align: center;
+	line-height: 0.55rem;
+	color: black;
+	font-size: 0.2rem;
+}
+.powu{
+	width: 0.91rem;
+	height: 0.26rem;
+	background: white;
+    float: left;
+	text-align: center;
+	line-height: 0.26rem;
+	color: red;
+	margin: 0 auto;
+	font-size: 0.2rem;
+	margin-top: 0.2rem;
+}
+.dibu{
+	width: 100%;
+	height: 2.9rem;
+	background: white;
+}
+.mao{
+	width: 100%;
+	height: 0.84rem;
+	background: #eeeeee;
+	border-bottom: 0.03rem  solid black;
+	overflow: hidden;
+}
+.shou{
+	width: 0.6rem;
+	height: 0.42rem;
+	margin-top: 0.26rem;
+	margin-left: 2.9rem;
+}
+.shou img{
+	width: 0.6rem;
+	height: 0.42rem;
+	display: block;
+}
+.diduan{
+	width: 100%;
+	height: 2.02rem;
+	background: white;
+	overflow: hidden;
+}
+.dizhi{
+    width: 5.21rem;
+    height: 0.28rem;
+    background: white;
+    padding-top: 0.43rem;
+    margin-left:0.7rem;
+    margin-bottom: 0.7rem;
+}
+.dizhi  li{
+
+	height: 0.28rem;
+	
+	margin-left: 0.35rem;
+	border-right: 0.02rem solid #99a5c2;
+	float: left;
+	padding-right: 0.35rem;
+	
+	font-size: 0.21rem;
+}
+.dizhi li:first-of-type{
+	margin-left: 0rem;
+}
+.dizhi li:last-of-type{
+	border-right: none;
+	padding-right: 0;
+}
+.dizhi li a{
+	
+	color: #999999;
+
+}
+.zuizi{
+	width: 3.68rem;
+	height: 0.21rem;
+	margin: 0 auto;
+	margin-top: 0.8rem;
+	font-size: 0.24rem;
+	color: #cccfcf;
+}
+
+
